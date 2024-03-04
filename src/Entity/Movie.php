@@ -94,6 +94,7 @@ class Movie
     public function __construct()
     {
         $this->actor = new ArrayCollection();
+        $this->file = new ArrayCollection();
     }
 
     public function getId(): ?int
